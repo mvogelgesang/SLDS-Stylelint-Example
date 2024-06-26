@@ -1,0 +1,20 @@
+/* component-wide overrides */
+:host {
+  --lwc-fontSize3: 2rem;
+  --sds-c-button-brand: #ff6600;
+  --lwc-c-button-dohicky: #073e15;
+  --lwc-cardColorBackground: #33ff88;
+}
+
+/* changes scoped to a single class */ 
+.sdsOverride {
+    --sds-c-button-brand-color-background: #BB00FF;
+    --sds-c-button-brand-color-background-hover: #8700B8;
+    --sds-c-button-brand-color-border: #BB00FF;
+    --sds-c-button-brand-color-border-hover: #8700B8;
+}
+
+/* overrides an out of the box slds class */
+.slds-box {
+  background-color: orange;
+}

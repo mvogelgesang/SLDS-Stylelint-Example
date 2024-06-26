@@ -1,0 +1,9 @@
+
+{
+  "plugins": ["@mvogelgesang/stylelint-plugin-slds"],
+  "rules": {
+    "stylelint-plugin-slds/no-lwc-custom-properties":true, 
+    "stylelint-plugin-slds/no-sds-custom-properties": true,
+    "stylelint-plugin-slds/no-slds-class-overrides": true
+  }
+}
